@@ -1,22 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <header>
-        <span>GUILHERME.</span>
-        <nav>
-            <ul>
-                <li>Sobre</li>
-                <li>Projetos</li>
-                <li>Contato</li>
-            </ul>
-        </nav>
+      <span>GUILHERME<span class="green">.</span></span>
+      <nav>
+        <ul>
+          <li>Sobre</li>
+          <li>Projetos</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
     </header>
-</body>
+
+    <main>
+      <section class="hero" style="margin-top: 80px;">
+        <div class="hero-left">
+          <span class="hero-badge">Desenvolvedor de Software</span>
+          <div class="hero-content">
+            <h1>Guilherme Lima <span class="green">Pastorello</span></h1>
+            <p class="descricao-nome">Estudante de Ciência da Computação</p>
+            <div class="competencias">
+              <span class="competencia">Sptech School</span>
+              <span class="green">. </span>
+              <span class="competencia">JavaScript</span>
+              <span class="competencia">HTML/CSS</span>
+              <span class="competencia">MySQL</span>
+            </div>
+            <div class="botoes-contato">
+              <a href="#" class="botao botao-primary">Contato</a>
+              <a href="#" class="botao botao-secondary">Ver Projetos</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="foto-perfil">
+            <img src="imgs/image.png" alt="Guilherme Lima Pastorello" />
+            <div class="foto-ornamento foto-ornamento-top"></div>
+            <div class="foto-ornamento foto-ornamento-bottom"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre-mim">
+        <div class="sobre-mim-topo">
+          <span class="section-title">Sobre Mim<span class="green">.</span></span>
+          <p class="section-subtitle">Desenvolvedor em formação pela SPTech School</p>
+        </div>
+
+        <div class="sobre-cards">
+          <article class="sobre-card">
+            <div class="card-icon"><span class="icon"><img src="imgs/Icon2.svg"></span></div>
+            <h2>Quem Sou</h2>
+            <p>Estudante apaixonado por tecnologia e programação</p>
+          </article>
+
+          <article class="sobre-card">
+            <div class="card-icon"><span class="icon"><img src="imgs/Icon.svg"></span></div>
+            <h2>Formação</h2>
+            <p>SPTech School - Desenvolvimento Web</p>
+          </article>
+
+          <article class="sobre-card">
+            <div class="card-icon"><span class="icon icon-code"></span></div>
+            <h2>Foco</h2>
+            <p>Back-end e Banco de Dados</p>
+          </article>
+        </div>
+
+        <div class="sobre-jornada">
+          <div class="sobre-jornada-topo">
+            <div class="sobre-jornada-icone">
+              <span class="icon"> <img src="imgs/Icon3.svg"> </span>
+            </div>
+            <h3>Minha Jornada</h3>
+          </div>
+          <div class="sobre-jornada-barra"></div>
+          <p>Olá! Sou Guilherme Lima Pastorello, sou estudante de Ciência da Computação no primeiro semestre na <span class="green">SPTech School</span>. Apaixonado por tecnologia e programação, estou em busca de novos desafios para ampliar meus conhecimentos.</p>
+          <p>Atualmente desenvolvo projetos com HTML, CSS, JavaScript e MySQL, criando interfaces funcionais e interativas. Cada nova linha de código é uma oportunidade de aprendizado e evolução.</p>
+        </div>
+      </section>
+
+      <section class="projetos">
+        <div class="projetos-topo">
+          <span class="section-title">Meus Projetos<span class="green">.</span></span>
+          <p class="section-subtitle">Confira os projetos que desenvolvi durante meus estudos</p>
+        </div>
+
+        <article class="projeto-card projeto-card-reverse">
+          <div class="projeto-media">
+            <img src="imgs/projeto1.png" alt="Site Palmeiras Quiz" />
+          </div>
+          <div class="projeto-info">
+            <span class="projeto-badge">Projeto 1</span>
+            <h3>Site Palmeiras Quiz</h3>
+            <p>Website interativo sobre a história do Palmeiras com quiz para usuários. Ao concluir o quiz, o usuário tem acesso a uma dashboard personalizada com seus resultados.</p>
+            <p class="projeto-subtitle">RECURSOS PRINCIPAIS:</p>
+            <ul class="projeto-list">
+              <li>Sistema de Quiz</li>
+              <li>Dashboard Interativa</li>
+              <li>Histórico do Palmeiras</li>
+              <li>Banco de Dados MySQL</li>
+            </ul>
+            <p class="projeto-subtitle">TECNOLOGIAS:</p>
+            <div class="projeto-tecnologias">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>MySQL</span>
+            </div>
+            <a href="#" class="projeto-link" target="_blank" rel="noreferrer">Ver no GitHub</a>
+          </div>
+        </article>
+
+        <article class="projeto-card">
+          <div class="projeto-info">
+            <span class="projeto-badge">Projeto 2</span>
+            <h3>Portfólio Pessoal</h3>
+            <p>Este portfólio desenvolvido para apresentar meus projetos e habilidades como desenvolvedor web.</p>
+            <p class="projeto-subtitle">RECURSOS PRINCIPAIS:</p>
+            <ul class="projeto-list">
+              <li>Design Responsivo</li>
+              <li>Animações Suaves</li>
+              <li>Tema Escuro</li>
+              <li>Layout Moderno</li>
+            </ul>
+            <p class="projeto-subtitle">TECNOLOGIAS:</p>
+            <div class="projeto-tecnologias">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <a href="#" class="projeto-link" target="_blank" rel="noreferrer">Ver no GitHub</a>
+          </div>
+          <div class="projeto-media">
+            <img src="imgs/projeto2.png" alt="Portfólio Pessoal" />
+          </div>
+        </article>
+      </section>
+
+      <section class="contato">
+        <div class="contato-topo">
+          <span class="section-title">Entre em Contato<span class="green">.</span></span>
+          <p class="section-subtitle">Interessado em colaborar ou saber mais sobre meus projetos? Vamos conversar!</p>
+        </div>
+        <div class="contato-cards">
+          <a href="#" class="contato-card" target="_blank" rel="noreferrer">
+            <div class="contato-icone"><img src="imgs/icon4.svg" alt="GitHub" /></div>
+            <h3>GitHub</h3>
+            <p>Veja meu código</p>
+          </a>
+          <a href="#" class="contato-card" target="_blank" rel="noreferrer">
+            <div class="contato-icone"><img src="imgs/icon5.svg" alt="LinkedIn" /></div>
+            <h3>LinkedIn</h3>
+            <p>Conecte-se comigo</p>
+          </a>
+          <a href="mailto:seu-email@exemplo.com" class="contato-card">
+            <div class="contato-icone"><img src="imgs/icon6.svg" alt="Email" /></div>
+            <h3>Email</h3>
+            <p>Envie uma mensagem</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <span class="footer-brand">GUILHERME<span class="green">.</span></span>
+          <p>Estudante de Ciência da Computação • SPTech School</p>
+        </div>
+        <div class="footer-links">
+          <a href="#" aria-label="GitHub"><img src="imgs/icon7.svg" alt="GitHub" /></a>
+          <a href="#" aria-label="LinkedIn"><img src="imgs/icon8.svg" alt="LinkedIn" /></a>
+          <a href="mailto:seu-email@exemplo.com" aria-label="Email"><img src="imgs/icon9.svg" alt="Email" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
