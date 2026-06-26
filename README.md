@@ -1,6 +1,6 @@
 # Portfólio de Guilherme Lima Pastorello
 
-Este projeto é o meu portfólio pessoal, desenvolvido com HTML, CSS e JavaScript para apresentar minhas habilidades, projetos e formas de contato.
+Este projeto é o meu portfólio pessoal, desenvolvido com HTML e CSSpara apresentar minhas habilidades, projetos e formas de contato.
 
 ## Acesse o portfólio
 
