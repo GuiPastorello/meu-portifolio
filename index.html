@@ -11,14 +11,14 @@
     />
   </head>
 
-  <body>
+  <body id="top">
     <header>
-      <span>GUILHERME<span class="green">.</span></span>
+      <a href="#top" class="header-logo">GUILHERME<span class="green">.</span></a>
       <nav>
         <ul>
-          <li>Sobre</li>
-          <li>Projetos</li>
-          <li>Contato</li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -38,8 +38,8 @@
               <span class="competencia">MySQL</span>
             </div>
             <div class="botoes-contato">
-              <a href="#" class="botao botao-primary">Contato</a>
-              <a href="#" class="botao botao-secondary">Ver Projetos</a>
+              <a href="#contato" class="botao botao-primary">Contato</a>
+              <a href="#projetos" class="botao botao-secondary">Ver Projetos</a>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
         </div>
       </section>
 
-      <section class="sobre-mim">
+      <section id="sobre" class="sobre-mim">
         <div class="sobre-mim-topo">
           <span class="section-title">Sobre Mim<span class="green">.</span></span>
           <p class="section-subtitle">Desenvolvedor em formação pela SPTech School</p>
@@ -91,7 +91,7 @@
         </div>
       </section>
 
-      <section class="projetos">
+      <section id="projetos" class="projetos">
         <div class="projetos-topo">
           <span class="section-title">Meus Projetos<span class="green">.</span></span>
           <p class="section-subtitle">Confira os projetos que desenvolvi durante meus estudos</p>
@@ -118,14 +118,45 @@
               <span>CSS</span>
               <span>JavaScript</span>
               <span>MySQL</span>
+              <span>NodeJs</span>
+              <span>ChartJs</span>
             </div>
-            <a href="#" class="projeto-link" target="_blank" rel="noreferrer">Ver no GitHub</a>
+            <a href="https://github.com/GuiPastorello/info-palestra" class="projeto-link" target="_blank" rel="noreferrer">Ver no GitHub</a>
           </div>
         </article>
 
         <article class="projeto-card">
           <div class="projeto-info">
             <span class="projeto-badge">Projeto 2</span>
+            <h3>Datalumini</h3>
+            <p>Datalumini é um sistema de monitoramento inteligente que captura a incidência da luz dentro de cultivos de Arabidopsis thaliana.</p>
+            <p>Desenvolvido em conjunto com alunos da faculdade e a pedido da própria planta, o projeto integra sensores, visualização de dados e banco de dados.</p>
+            <p class="projeto-subtitle">RECURSOS PRINCIPAIS:</p>
+            <ul class="projeto-list">
+              <li>Captura e análise de intensidade luminosa</li>
+              <li>Interface visual com gráficos em tempo real</li>
+              <li>Conexão Arduino para leitura de sensores</li>
+              <li>Monitoramento de cultivo de Arabidopsis thaliana</li>
+            </ul>
+            <p class="projeto-subtitle">TECNOLOGIAS:</p>
+            <div class="projeto-tecnologias">
+              <span>Arduino</span>
+              <span>NodeJS</span>
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>MySQL</span>
+              <span>ChartJS</span>
+            </div>
+            <a href="https://github.com/DataLumini/site-institucional-datalumini" class="projeto-link" target="_blank" rel="noreferrer">Ver no GitHub</a>
+          </div>
+          <div class="projeto-media">
+            <img src="imgs/projeto3.png" alt="Datalumini" />
+          </div>
+        </article>
+
+        <article class="projeto-card">
+          <div class="projeto-info">
+            <span class="projeto-badge">Projeto 3</span>
             <h3>Portfólio Pessoal</h3>
             <p>Este portfólio desenvolvido para apresentar meus projetos e habilidades como desenvolvedor web.</p>
             <p class="projeto-subtitle">RECURSOS PRINCIPAIS:</p>
@@ -140,7 +171,7 @@
               <span>HTML</span>
               <span>CSS</span>
             </div>
-            <a href="#" class="projeto-link" target="_blank" rel="noreferrer">Ver no GitHub</a>
+            <a href="https://github.com/GuiPastorello/meu-portifolio" class="projeto-link" target="_blank" rel="noreferrer">Ver no GitHub</a>
           </div>
           <div class="projeto-media">
             <img src="imgs/projeto2.png" alt="Portfólio Pessoal" />
@@ -148,23 +179,23 @@
         </article>
       </section>
 
-      <section class="contato">
+      <section id="contato" class="contato">
         <div class="contato-topo">
           <span class="section-title">Entre em Contato<span class="green">.</span></span>
           <p class="section-subtitle">Interessado em colaborar ou saber mais sobre meus projetos? Vamos conversar!</p>
         </div>
         <div class="contato-cards">
-          <a href="#" class="contato-card" target="_blank" rel="noreferrer">
+          <a href="https://github.com/GuiPastorello" class="contato-card" target="_blank" rel="noreferrer">
             <div class="contato-icone"><img src="imgs/icon4.svg" alt="GitHub" /></div>
             <h3>GitHub</h3>
             <p>Veja meu código</p>
           </a>
-          <a href="#" class="contato-card" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/guilherme-lima-pastorello-62a8b7284/" class="contato-card" target="_blank" rel="noreferrer">
             <div class="contato-icone"><img src="imgs/icon5.svg" alt="LinkedIn" /></div>
             <h3>LinkedIn</h3>
             <p>Conecte-se comigo</p>
           </a>
-          <a href="mailto:seu-email@exemplo.com" class="contato-card">
+          <a href="mailto:glima.pastorello@gmail.com" class="contato-card">
             <div class="contato-icone"><img src="imgs/icon6.svg" alt="Email" /></div>
             <h3>Email</h3>
             <p>Envie uma mensagem</p>
@@ -180,9 +211,9 @@
           <p>Estudante de Ciência da Computação • SPTech School</p>
         </div>
         <div class="footer-links">
-          <a href="#" aria-label="GitHub"><img src="imgs/icon7.svg" alt="GitHub" /></a>
-          <a href="#" aria-label="LinkedIn"><img src="imgs/icon8.svg" alt="LinkedIn" /></a>
-          <a href="mailto:seu-email@exemplo.com" aria-label="Email"><img src="imgs/icon9.svg" alt="Email" /></a>
+          <a href="https://github.com/GuiPastorello" aria-label="GitHub"><img src="imgs/icon7.svg" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/guilherme-lima-pastorello-62a8b7284/" aria-label="LinkedIn"><img src="imgs/icon8.svg" alt="LinkedIn" /></a>
+          <a href="mailto:glima.pastorello@gmail.com" aria-label="Email"><img src="imgs/icon9.svg" alt="Email" /></a>
         </div>
       </div>
     </footer>
